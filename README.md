@@ -1,2 +1,0 @@
-# samananthar
-Samananthar v1
