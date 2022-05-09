@@ -18,4 +18,7 @@ Before getting into the wider spectrum of work we performed two levels of filtra
   Similarly removing the corresponding parallel sentences from both English-Telugu (en-te) files which has **english text in telugu file** and **junk in both english text file and hindi text files.** \
   Below are the number of sentences extracted in each language pair.\
 		  **- Retained english & telugu sentences : 29,68,429 sentences\
-		    - Filtered english & telugu sentences : 68,394 sentences**
+		    - Filtered english & telugu sentences : 68,394 sentences**\
+		    
+		    Link for all filtered text is mentioned in the below link :\
+		    https://drive.google.com/drive/folders/1szGM1GcBNr1V7_aY-R3Jfasb6pGlG_R0?usp=sharing\
