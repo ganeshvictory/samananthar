@@ -21,4 +21,4 @@ Before getting into the wider spectrum of work we performed two levels of filtra
 		    - Filtered english & telugu sentences : 68,394 sentences**\
 		    
 Link for all filtered text is mentioned in the below link :\
-		    https://drive.google.com/drive/folders/1szGM1GcBNr1V7_aY-R3Jfasb6pGlG_R0?usp=sharing \
+		    https://drive.google.com/drive/folders/1szGM1GcBNr1V7_aY-R3Jfasb6pGlG_R0?usp=sharing 
