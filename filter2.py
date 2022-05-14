@@ -114,9 +114,9 @@ if __name__=='__main__':
     #print(languages)
 
 
-    common_path = '/Users/apple/Documents/samanantar research/clean_'
-    filename_1 = common_path+'en_'+languages+'.txt'
-    filename_2 = common_path+languages+'_en.txt'
+    common_path = '/Users/apple/Documents/samananthar/clean_'
+    filename_1 = common_path+'en_'+languages+'_filter1.txt'
+    filename_2 = common_path+languages+'_en_filter1.txt'
 
  
     #eng
@@ -133,10 +133,10 @@ if __name__=='__main__':
     #print(filename_1)
     #print(filename_2)
 
-    savefile_1 = './filtered_en_'+languages+'.txt'
-    savefile_2 = './filtered_'+languages+'_en.txt'
-    savefile_3 = './Retained_en_'+languages+'.txt'
-    savefile_4 = './Retained_'+languages+'_en.txt'
+    savefile_1 = './pruned_en_'+languages+'_filter2.txt'
+    savefile_2 = './pruned_'+languages+'_en_filter2.txt'
+    savefile_3 = './clean_en_'+languages+'_filter2.txt'
+    savefile_4 = './clean_'+languages+'_en_filter2.txt'
 
     a, b, c, d = filter1(sentences_en, sentences_in)
 
@@ -144,6 +144,24 @@ if __name__=='__main__':
     writefile(savefile_2, b)
     writefile(savefile_3, c)
     writefile(savefile_4, d)
+
+    with open(savefile_1,"r") as f:
+        print('./pruned_en_'+languages+'_filter2.txt', len(f.readlines()))  # This would give length of files.
+
+    with open(savefile_2,"r") as f1:
+        print('./pruned_'+languages+'_en_filter2.txt', len(f1.readlines()))  # This would give length of files.
+
+    with open(savefile_3,"r") as f2:
+        print('./clean_en_'+languages+'_filter2.txt', len(f2.readlines()))  # This would give length of files.
+
+    with open(savefile_4,"r") as f3:
+        print('./clean_'+languages+'_en_filter2.txt', len(f3.readlines()))  # This would give length of files.
+
+    
+
+    #print (./clean_en_'+languages+'_filter1.txt, len(savefile_1))
+    #print ('./clean_'+languages+'_en_filter1.txt', len(savefile_2))
+
     
 
       
